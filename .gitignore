@@ -4,6 +4,9 @@
 # Mac Stuff
 .DS_Store
 
+# Hugo Stuff
+/public/
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
