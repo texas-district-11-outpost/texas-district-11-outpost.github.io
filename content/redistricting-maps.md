@@ -28,5 +28,10 @@ Yett Creek Neightborhood Park near Riata Vista is noted as a reference, on the w
 
 T&C Sports-Soccer Fields in Leander is noted as a reference, in the southwestern corner. The new TX-17 district stretches north and west to beyond Wortham.
 
+## Map scales
+
+While it's difficult to intuitively see the sheer sizes of TX-11, TX-10, and TX-37, know that a typical bike ride from T&C Soccer to Yett Creek, stopping in between at Rattan Creek, typically would take about a half an hour. This bike ride would touch all three districts mentioned here.
+
+A bike ride from Rattan Creek to downtown Odessa would take significant planning and a road time of about 33 hours (or about five and a half hours by car).
 
 *image sources: [Texas Tribune](https://www.texastribune.org/2025/09/04/2025-texas-redistricting-maps/) interactive redistricting lookup.*
