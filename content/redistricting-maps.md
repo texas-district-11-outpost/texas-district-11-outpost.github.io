@@ -20,13 +20,13 @@ Rattan Creek Park is noted as a reference, in the extreme southeastern corner. T
 
 ![TX-37 to TX-10, with Yett Creek Neighborhood Park as reference](images/old-TX-37-vs-new-TX-10.png)
 
-T&C Sports-Soccer Fields is noted as a reference, on the western side. The new TX-10 stretches mostly eastward through College Station and to Corrigan.
+Yett Creek Neightborhood Park near Riata Vista is noted as a reference, on the western side. The new TX-10 stretches mostly eastward through College Station and to Corrigan.
 
 ### District 17 (was District 37)
 
 ![TX-37 to TX-10, with T&C Sports-Soccer Fields as reference](images/old-TX-37-vs-new-TX-17.png)
 
-T&C Sports-Soccer Fields is noted as a reference, in the southwestern corner. The new TX-17 district stretches north and west to beyond Wortham.
+T&C Sports-Soccer Fields in Leander is noted as a reference, in the southwestern corner. The new TX-17 district stretches north and west to beyond Wortham.
 
 
 *image sources: [Texas Tribune](https://www.texastribune.org/2025/09/04/2025-texas-redistricting-maps/) interactive redistricting lookup.*
