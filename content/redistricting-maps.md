@@ -24,7 +24,7 @@ Yett Creek Neightborhood Park near Riata Vista is noted as a reference, on the w
 
 ### District 17 (was District 37)
 
-![TX-37 to TX-10, with T&C Sports-Soccer Fields as reference](images/old-TX-37-vs-new-TX-17.png)
+![TX-37 to TX-17, with T&C Sports-Soccer Fields as reference](images/old-TX-37-vs-new-TX-17.png)
 
 T&C Sports-Soccer Fields in Leander is noted as a reference, in the southwestern corner. The new TX-17 district stretches north and west to beyond Wortham.
 
