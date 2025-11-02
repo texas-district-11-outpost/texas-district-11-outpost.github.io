@@ -26,9 +26,6 @@ President Donald Trump and Texas Governor Greg Abbott have stated that the reaso
 
 # HOW CAN WE STOP THIS? 
 
-To be blunt, there is not much we can do to stop this. There is ongoing litigation right now, but we are preparing as if this is a sure thing. Our goal is to make sur
+To be blunt, there is not much we can do to stop this. There is ongoing litigation right now, but we are preparing as if this is a sure thing. Our goal is to ensure every member of the soon-to-be new District 11 is aware of this and that they get out and vote in 2026! If you'd like to be a part of this, you can use this [signup](/signup) form to let us know you're interested in helping out.
 
 
-and a [signup](/signup) form to let us know you're interested in helping out!
-
-Feel free to fork this on [Github](https://github.com/texas-district-11-outpost/texas-district-11-outpost.github.io) and study the README and open any issues there. Surely there are bugs/typos.
