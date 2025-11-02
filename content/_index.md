@@ -1,7 +1,5 @@
 Hello and welcome to the website for the District 11 Outpost!
 
-![Welcome to Odessa!](/images/welcome-to-odessa-circle.png)
-
 # WHO ARE WE?
 
 We are a group of Rattan Creek neighbors who want to raise awareness that our part of the neighborhood has been gerrymandered into what will become the new Texas U.S. Congressional District 11.
