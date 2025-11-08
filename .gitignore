@@ -34,3 +34,10 @@ go.work.sum
 # .idea/
 # .vscode/
 content/.obsidian/
+
+# Hugo output directory
+/public/
+/resources/_gen/
+
+# Hugo module cache
+/.hugo_build.lock

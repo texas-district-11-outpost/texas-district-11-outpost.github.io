@@ -1,4 +1,6 @@
 
+
+![The Texas flag waving against a clear blue sky](/images/pete-alexopoulos-JFfDRKlI3hY-unsplash.jpg)
 # WHO ARE WE?
 
 We are a group of Rattan Creek neighbors who want to raise awareness that our part of the neighborhood has been gerrymandered into what will become the new Texas U.S. Congressional District 11. [Sign up](/signup) here to keep informed!
