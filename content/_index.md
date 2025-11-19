@@ -1,6 +1,13 @@
-
-
 ![The Texas flag waving against a clear blue sky](/images/pete-alexopoulos-JFfDRKlI3hY-unsplash.jpg)
+
+# BREAKING NEWS
+
+On November 18, 2025, a three-judge panel determined that Texas's new U.S. Congressional Districts are most likely in violation of the law, and a temporary injunction was entered. That means that, as of right now, you are still going to be voting in your old (current) congressional district.
+
+However, the state of Texas has indicated it will appeal to the Supreme Court of the United States. Depending on how quickly the Supreme Court acts, this injunction could be stayed, which would put you back into your "new" district.
+
+Yes, this is confusing! Stay tuned here for updates, and read the [Texas Tribune article](https://www.texastribune.org/2025/11/18/texas-redistricting-ruling-lawsuit-el-paso-court-2026-midterms/) for more details.
+
 # WHO ARE WE?
 
 We are a group of Rattan Creek neighbors who want to raise awareness that our part of the neighborhood has been gerrymandered into what will become the new Texas U.S. Congressional District 11. [Sign up](/signup) here to keep informed!
