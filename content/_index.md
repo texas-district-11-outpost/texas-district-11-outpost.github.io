@@ -1,5 +1,11 @@
 ![The Texas flag waving against a clear blue sky](/images/pete-alexopoulos-JFfDRKlI3hY-unsplash.jpg)
 
+# BREAKINGER NEWS
+
+The stay on the new district maps was short-lived. On November 21, 2025, Justice Samuel Alito granted Texas' request to stay the court's ruling. So, for now, we're back to the new 2025 map. It's impossible to say with certainty what will happen next; it's possible the filing deadlines for the March primaries will be extended, or the stay will simply keep the new maps in effect for the purposes of filing.
+
+For more, see this [Texas Tribune article](https://www.texastribune.org/2025/11/21/texas-redistricting-supreme-court-temporary-stay/).
+
 # BREAKING NEWS
 
 On November 18, 2025, a three-judge panel determined that Texas's new U.S. Congressional Districts are most likely in violation of the law, and a temporary injunction was entered. That means that, as of right now, you are still going to be voting in your old (current) congressional district.
