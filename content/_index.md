@@ -1,18 +1,12 @@
 ![The Texas flag waving against a clear blue sky](/images/pete-alexopoulos-JFfDRKlI3hY-unsplash.jpg)
 
-# BREAKINGER NEWS
-
-The stay on the new district maps was short-lived. On November 21, 2025, Justice Samuel Alito granted Texas' request to stay the court's ruling. So, for now, we're back to the new 2025 map. It's impossible to say with certainty what will happen next; it's possible the filing deadlines for the March primaries will be extended, or the stay will simply keep the new maps in effect for the purposes of filing.
-
-For more, see this [Texas Tribune article](https://www.texastribune.org/2025/11/21/texas-redistricting-supreme-court-temporary-stay/).
-
 # BREAKING NEWS
 
-On November 18, 2025, a three-judge panel determined that Texas's new U.S. Congressional Districts are most likely in violation of the law, and a temporary injunction was entered. That means that, as of right now, you are still going to be voting in your old (current) congressional district.
+On December 4, 2024, the United States Supreme Court has effectively reinstated the new district maps after a brief return to the pre-2025 maps by temporarily staying the Texas District Court's ruling that the new maps are likely in violation of the law.
 
-However, the state of Texas has indicated it will appeal to the Supreme Court of the United States. Depending on how quickly the Supreme Court acts, this injunction could be stayed, which would put you back into your "new" district.
+While these new district borders may change in the coming months, these are the maps we have to live with for the upcoming 2026 election.
 
-Yes, this is confusing! Stay tuned here for updates, and read the [Texas Tribune article](https://www.texastribune.org/2025/11/18/texas-redistricting-ruling-lawsuit-el-paso-court-2026-midterms/) for more details.
+For more, see this [Texas Tribune article](https://www.texastribune.org/2025/12/04/texas-redistricting-map-us-supreme-court-2026-midterms/).
 
 # WHO ARE WE?
 
