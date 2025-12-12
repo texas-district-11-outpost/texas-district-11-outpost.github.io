@@ -2,7 +2,7 @@
 
 # BREAKING NEWS
 
-On December 4, 2024, the United States Supreme Court has effectively reinstated the new district maps after a brief return to the pre-2025 maps by temporarily staying the Texas District Court's ruling that the new maps are likely in violation of the law.
+On December 4, 2025, the United States Supreme Court has effectively reinstated the new district maps after a brief return to the pre-2025 maps by temporarily staying the Texas District Court's ruling that the new maps are likely in violation of the law.
 
 While these new district borders may change in the coming months, these are the maps we have to live with for the upcoming 2026 election.
 
