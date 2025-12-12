@@ -32,6 +32,14 @@ Here is some info about the [redistricting maps](/redistricting-maps) that was t
 
 President Donald Trump and Texas Governor Greg Abbott have stated that the reason for the mid-decade redistricting is to increase the number of Republicans in the U.S. Congress. Rattan Creek and the surrounding neighborhoods have tended to vote Democratic in the past few elections. By subsuming these neighborhoods into a solidly Republican district that stretches to far West Texas, those voters who vote Democratic will presumably be outnumbered, thereby reducing the effect of their votes.
 
+For a fun explainer on how gerrymandering works, see the delightful [CGP Grey video](https://www.youtube.com/watch?v=Mky11UJb9AY).
+
+# WAIT, IS THIS EVEN LEGAL?
+
+In the United States, yes. Legislators in power can draw district boundaries to improve their re-election odds, provided they don't explicitly base those lines on certain prohibited factors. This makes America an outlier among modern democracies, most of which restrict or forbid partisan control of redistricting.
+
+In this case, however, the motivating factor **was** racial discrimination. A Texas district court found exactly that, but the Supreme Court set aside those findings when it reviewed and ultimately overturned the lower court's ruling. For more, see this [Texas Tribune article](https://www.texastribune.org/2025/12/04/texas-redistricting-map-us-supreme-court-2026-midterms/).
+
 # HOW CAN WE STOP THIS?
 
 To be blunt, there is not much we can do to stop this. There is ongoing litigation right now, but we are preparing as if this is a sure thing. Our goal is to ensure every member of the soon-to-be new District 11 is aware of this and that they get out and vote in 2026! If you'd like to be a part of this, you can use this [signup](/signup) form to let us know you're interested in helping out.
