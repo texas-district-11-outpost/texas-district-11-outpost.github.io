@@ -28,6 +28,12 @@ The new district maps will go into effect for the 2026 elections. Both the Repub
 
 Here is some info about the [redistricting maps](/redistricting-maps) that was the genesis for this website and the organizng around it. You can also go to [this page](https://dvr.capitol.texas.gov/Congress/73/PLANC2308), zoom in, and see the boundaries of each new district within your neighborhood.
 
+We also have a fun Google map you can search directly for your address to see if you're in, or out, of TX-11.
+
+[![Google maps of TX-11, lovingly handcrafted by todb with QGIS and Google Maps, with loads of help from Matt L](/images/google-maps-tx11.jpg)](https://www.google.com/maps/d/embed?mid=1B_tPshOlBdIxr7Q66k-gdOzB25dQY5w&ehbc=2E312F)
+
+*Isn't gerrymanding wild? [Click here](https://www.google.com/maps/d/embed?mid=1B_tPshOlBdIxr7Q66k-gdOzB25dQY5w&ehbc=2E312F) to search your address.*
+
 # WHY IS THIS HAPPENING?
 
 President Donald Trump and Texas Governor Greg Abbott have stated that the reason for the mid-decade redistricting is to increase the number of Republicans in the U.S. Congress. Rattan Creek and the surrounding neighborhoods have tended to vote Democratic in the past few elections. By subsuming these neighborhoods into a solidly Republican district that stretches to far West Texas, those voters who vote Democratic will presumably be outnumbered, thereby reducing the effect of their votes.

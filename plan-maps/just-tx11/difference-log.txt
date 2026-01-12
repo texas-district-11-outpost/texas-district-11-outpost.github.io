@@ -1,0 +1,21 @@
+QGIS version: 3.44.6-Solothurn
+QGIS code revision: 386cd767
+Qt version: 5.15.18
+Python version: 3.12.11
+GDAL version: 3.12.0
+GEOS version: 3.14.1-CAPI-1.20.5
+PROJ version: Rel. 9.7.0, September 1st, 2025
+PDAL version: 2.9.2 (git-version: Release)
+Algorithm started at: 2025-12-26T21:11:15
+Algorithm 'Difference' starting…
+Input parameters:
+{ 'GRID_SIZE' : None, 'INPUT' : '/Users/todb/git/texas-district-11-outpost.github.io/plan-maps/just-tx11/PLANC2333_TX11.kml|layername=planc2333_tx11|geometrytype=MultiPolygon|uniqueGeometryType=yes', 'OUTPUT' : 'TEMPORARY_OUTPUT', 'OVERLAY' : '/Users/todb/git/texas-district-11-outpost.github.io/plan-maps/just-tx11/PLANC2193_TX11.kml|layername=planc2193_tx11|geometrytype=MultiPolygon|uniqueGeometryType=yes' }
+
+Creating spatial index
+Calculating difference
+Execution completed in 0.04 seconds
+Results:
+  OUTPUT: Difference_23d5ade3_0e09_4c86_800f_f4a41220e2bb
+
+Loading resulting layers
+Algorithm 'Difference' finished
