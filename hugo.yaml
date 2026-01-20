@@ -5,3 +5,8 @@ theme: ["PaperMod"]
 caches:
   images:
     dir: :cacheDir/images
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
