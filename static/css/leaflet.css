@@ -146,6 +146,8 @@
 	}
 .leaflet-right {
 	right: 0;
+	width: 140px; 
+
 	}
 .leaflet-bottom {
 	bottom: 0;
@@ -159,6 +161,7 @@
 	}
 .leaflet-right .leaflet-control {
 	float: right;
+
 	}
 .leaflet-top .leaflet-control {
 	margin-top: 10px;
