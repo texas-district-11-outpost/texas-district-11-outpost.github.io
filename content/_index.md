@@ -19,7 +19,7 @@ You may have seen the "Welcome to Odessa" logo around the neighborhood:
 
 ![Welcome to Odessa!](/images/welcome-to-odessa-circle.png)
 
-This is our tongue-in-cheek response to the fact that the new District 11 will range from Pflugerville, through our neighborhood, all the way out to Odessa. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. The current District 11 is represented by Republican Congressman August Pfluger, out of San Angelo. He is running as unopposed as the Republican candidate.
+This is our tongue-in-cheek response to the fact that the new District 11 will range from Pflugerville, through our neighborhood, all the way out to Odessa. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. The current District 11 is represented by Republican Congressman August Pfluger, out of San Angelo. He is running unopposed as the Republican candidate.
 
 # WHEN IS THIS HAPPENING?
 
@@ -49,4 +49,4 @@ In this case, however, the motivating factor **was** racial discrimination. A Te
 
 # HOW CAN YOU CAN GET INVOLVED
 
-Our goal is to ensure every member of the soon-to-be new District 11 is aware of this and that they get out and vote in 2026! If you'd like to be a part of this, you can use this [signup](/signup) form to let us know you're interested in helping out. IF you want to be "the gerrymander person" in your social group, we're more than happy to help you out!
+Our goal is to ensure every member of the soon-to-be new District 11 is aware of this and that they get out and vote in 2026! If you'd like to be a part of this, you can use this [signup](/signup) form to let us know you're interested in helping out. If you want to be "the gerrymander person" in your social group, we're more than happy to help you out!

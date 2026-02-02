@@ -146,6 +146,7 @@
 	}
 .leaflet-right {
 	right: 0;
+	width: 140px;
 	}
 .leaflet-bottom {
 	bottom: 0;
