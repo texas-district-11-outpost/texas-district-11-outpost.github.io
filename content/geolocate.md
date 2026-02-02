@@ -1,7 +1,7 @@
 # What's my district?
 
 Enter your street address to see how your U.S. House district changed between the
-2020 and 2025 maps. Note, a format like, "123 Fake Street 78701" without a city and state, and with a ZIP™code, tends to be the most reliable.
+2020 and 2025 maps. Note, a format like, "123 Fake Street 78701" without a city and state, and with a ZIP™ code, tends to be the most reliable.
 
 <style>
   #geo-widget {
