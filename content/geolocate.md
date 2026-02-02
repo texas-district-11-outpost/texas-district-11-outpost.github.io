@@ -100,9 +100,14 @@ Enter your street address to see how your U.S. House district changed between th
     url.searchParams.set("q", addy);
     url.searchParams.set("format", "json");
     url.searchParams.set("limit", "1");
+    let headers = new Headers({
+        "Accept"       : "application/json",
+        "Content-Type" : "application/json",
+        "User-Agent"   : "TX-11-geolocate"
+    });
 
     const res = await fetch(url, {
-      headers: { "Accept": "application/json" }
+      headers: headers
     });
 
     const data = await res.json();
@@ -204,7 +209,7 @@ Enter your street address to see how your U.S. House district changed between th
 
           <p>
             Congrats! Your U.S. House district has been redrawn by Texas
-            Republicans. Be sure to thank them at the polls.
+            Republicans. 
           </p>
         `;
       }
@@ -228,6 +233,8 @@ If you like this, please [support](https://support.texastribune.org/donate) the 
 journalism at Texas Tribune, because, yes, data science is journalism.
 
 **[Donate to Texas Tribune right now!](https://support.texastribune.org/donate)**
+
+If you want to review the Texas Resdistricting data directly and other components including PLANC2333 as well as the Texas Supremere Court ruling in favor of partistan gerrymandering, you can find it here: [https://redistricting.capitol.texas.gov/](https://redistricting.capitol.texas.gov/). 
 
 ### Notice of License
 
