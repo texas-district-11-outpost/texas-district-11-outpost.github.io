@@ -74,7 +74,7 @@ Enter your street address to see how your U.S. House district changed between th
   <input
     id="addy"
     type="text"
-    placeholder="7617 Elkhorn Mountain Trail, Austin, TX 78729"
+    placeholder="7617 Elkhorn Mountain Trail 78729"
   />
   <button id="lookup">Look up</button>
 
