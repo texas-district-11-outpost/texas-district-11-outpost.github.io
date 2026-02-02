@@ -229,10 +229,8 @@ journalism at Texas Tribune, because, yes, data science is journalism.
 
 **[Donate to Texas Tribune right now!](https://support.texastribune.org/donate)**
 
-## Notice of License
+### Notice of License
 
 This widget was created for use on the
 [TX11.us](https://tx11.us) website. If you reuse it, please respect TX11’s
 [MIT License](https://github.com/texas-district-11-outpost/texas-district-11-outpost.github.io/blob/main/LICENSE).
-
-# End!
