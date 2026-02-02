@@ -1,6 +1,7 @@
 ![The Texas flag waving against a clear blue sky](/images/pete-alexopoulos-JFfDRKlI3hY-unsplash.jpg)
 
-# BREAKING NEWS
+
+# LITIGATION NEWS
 
 On December 4, 2025, the United States Supreme Court has effectively reinstated the new district maps after a brief return to the pre-2025 maps by temporarily staying the Texas District Court's ruling that the new maps are likely in violation of the law.
 
@@ -18,7 +19,7 @@ You may have seen the "Welcome to Odessa" logo around the neighborhood:
 
 ![Welcome to Odessa!](/images/welcome-to-odessa-circle.png)
 
-This is our tongue-in-cheek response to the fact that the new District 11 will range from Pflugerville, through our neighborhood, all the way out to Odessa. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. The current District 11 is represented by Republican Congressman August Pfluger, out of San Angelo. We expect him to run again in 2026, when the new district maps will go into effect.
+This is our tongue-in-cheek response to the fact that the new District 11 will range from Pflugerville, through our neighborhood, all the way out to Odessa. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. The current District 11 is represented by Republican Congressman August Pfluger, out of San Angelo. He is running as unopposed as the Republican candidate.
 
 # WHEN IS THIS HAPPENING?
 
@@ -46,6 +47,6 @@ In the United States, yes. Legislators in power can draw district boundaries to 
 
 In this case, however, the motivating factor **was** racial discrimination. A Texas district court found exactly that, but the Supreme Court set aside those findings when it reviewed and ultimately overturned the lower court's ruling. For more, see this [Texas Tribune article](https://www.texastribune.org/2025/12/04/texas-redistricting-map-us-supreme-court-2026-midterms/).
 
-# HOW CAN WE STOP THIS?
+# HOW CAN YOU CAN GET INVOLVED
 
-To be blunt, there is not much we can do to stop this. There is ongoing litigation right now, but we are preparing as if this is a sure thing. Our goal is to ensure every member of the soon-to-be new District 11 is aware of this and that they get out and vote in 2026! If you'd like to be a part of this, you can use this [signup](/signup) form to let us know you're interested in helping out.
+Our goal is to ensure every member of the soon-to-be new District 11 is aware of this and that they get out and vote in 2026! If you'd like to be a part of this, you can use this [signup](/signup) form to let us know you're interested in helping out. IF you want to be "the gerrymander person" in your social group, we're more than happy to help you out!
