@@ -19,7 +19,7 @@ You may have seen the "Welcome to Odessa" logo around the neighborhood:
 
 ![Welcome to Odessa!](/images/welcome-to-odessa-circle.png)
 
-This is our tongue-in-cheek response to the fact that the new District 11 will range from Pflugerville, through our neighborhood, all the way out to Odessa. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. The current District 11 is represented by Republican Congressman August Pfluger, out of San Angelo. He is running unopposed as the Republican candidate.
+This is our tongue-in-cheek response to the fact that the new District 11 will range from Pflugerville, through our neighborhood, all the way out to Odessa. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. The current District 11 is represented by Republican Congressman August Pfluger, out of San Angelo. He is running unopposed in the primary as the Republican candidate. He will face off against one of two Democrat candidates - Claire Reynolds or Pedro "Pete" Ruiz. 
 
 # WHEN IS THIS HAPPENING?
 
