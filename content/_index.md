@@ -1,6 +1,12 @@
 ![The Texas flag waving against a clear blue sky](/images/pete-alexopoulos-JFfDRKlI3hY-unsplash.jpg)
 
 
+# WHAT IS NEW
+
+We're continuing to get more signs and data! Feel free to read this [GIS and TX11 page](/map-voter-data) and keep an eye here!
+
+We also have more signs so be sure to join the [Sign up](/signup) and look for an email!
+
 # LITIGATION NEWS
 
 On December 4, 2025, the United States Supreme Court has effectively reinstated the new district maps after a brief return to the pre-2025 maps by temporarily staying the Texas District Court's ruling that the new maps are likely in violation of the law.
@@ -19,7 +25,7 @@ You may have seen the "Welcome to Odessa" logo around the neighborhood:
 
 ![Welcome to Odessa!](/images/welcome-to-odessa-circle.png)
 
-This is our tongue-in-cheek response to the fact that the new District 11 will range from Pflugerville, through our neighborhood, all the way out to Odessa. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. The current District 11 is represented by Republican Congressman August Pfluger, out of San Angelo. He is running unopposed in the primary as the Republican candidate. He will face off against one of two Democrat candidates - Claire Reynolds or Pedro "Pete" Ruiz. 
+This is our tongue-in-cheek response to the fact that the new District 11 will range from Pflugerville all the way out to Odessa. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. The current District 11 is represented by Republican Congressman August Pfluger, out of San Angelo. He is running unopposed in the primary as the Republican candidate. He will face off against one of two Democrat candidates - Claire Reynolds or Pedro "Pete" Ruiz. 
 
 # WHEN IS THIS HAPPENING?
 
