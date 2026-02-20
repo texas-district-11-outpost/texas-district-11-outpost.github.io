@@ -1,19 +1,15 @@
-# GIS and TX11
+# Maps and TX11
 
-A big part of determining what areas are in TX-11 is knowing what **addresses** are actually inside the new congressional district. 
+This page explains how we used maps and data to determine which voters live in the gerrymandered congressional district TX-11. We’ll walk through the process from high-level maps to visualizing voter registration and turnout data for further action. 
+
+![A map of Texas Congressional District 11 with dots indicating Voting age population and shaded areas indicating turnout](images/TX-11_VD_vap.png)
+*TX-11 Precincts: A Green dot means at least 3000 Voting Age People, Purple means higher Turnout %*
 
 Due to the heavily gerrymandered maps, you cannot use typical processes such as county lines as the boundary. The congressional districts seem to readily cut and carve through any jurisdiction with little regard for communities. 
 
-In order to know which congressional district someone is in, we have to take their registered address and turn that into a set of latitude/longitude coordinates. After doing that, we can then check if that addres exists within the boundaries of TX-11. 
+In order to know which congressional district someone is in, we have to take their registered address and turn that into a set of latitude/longitude coordinates. After doing that, we can then check if that address exists within the boundaries of TX-11. 
 
-As you can imagine, this is a pretty computational slow operation to perform when working with large datasets.
-
-However, this year, every county I've reached out to has had issues being able to provide the database. When pressed for an answer, county election officials have said that it is due to the Texas Secretary of state not releasing the databases to them. 
-
-As a result, getting the data to determine who actually lives in TX-11 is a challenge. Currently, I can only visualize Travis county as that is the only dataset publicly available. 
-
-![A map of Texas Congressional District 11 with dots indicating Voting age population and shaded areas indicating turnout](images/TX-11_VD_vap.png)
-*TX-11 VTD's and Turnout: A Green dot means at least 3000 Voting Age People, Purple means higher Turnout %*
+I had hoped to provide complete set of maps for TX-11, including Odessa and Midland. However, every county I've reached out to has had issues being able to provide the needed databases. When pressed for an answer, county election officials have said that it is due to the Texas Secretary of State(SoS) not releasing the databases to them. 
 
 
 ## Important Notes
@@ -21,42 +17,69 @@ As a result, getting the data to determine who actually lives in TX-11 is a chal
 When reviewing that data, some odd things may pop up and it's important to remember a few things. 
 
 - The redistricting was done with 2020 Census population counts. 
-- The Austin metro area has grown signifcantly in the last few years 
-- With these two fact, you can have numerous instances where the registered voter count is higher than the population, depending on the source used. 
+- The Austin metro area has grown signifcantly in the last few years. 
+- With these two facts, you can have numerous instances where the registered voter count is higher than the reported population, depending on the source used. 
 - All data used here is publicly available and not used in any commercial sense. 
 
-## The process
 
-Let's first talk about how these districts got drawn in the first place. The Texas State House took heavily gerrymandered maps provided by Butler Snow, who likely received them from a conservative group, Public Interest Legal Fund. These maps, using a variety of public and private data sources, slice Texas up at the census block level into new congressional districts. 
+## Key terms: 
+
+- Census block: The smallest unit of census data, often covering a few homes or a single street and providing statistics like income, age and race and population. 
+- VTD (Voting Tabulation District): A precinct where voters cast ballots. 
+- Geocoding: Converting an address (e.g., “123 Main St”) into map coordinates.
+- GIS (Geographic information system): A software that draws maps and provides tools to give goegrpahicaly-aware context from different data sets. 
+
+## Data Sources
+
+There are a variety of sources used in drawing the complete picture of who is now in TX-11 - it starts with the redistricting maps themselves.
+
+The Texas State House took gerrymandered maps provided by Butler Snow. These maps, using a variety of public and private data sources, slice Texas up at the census block level into new congressional districts. 
 
 For an example of how small a Census block can be, you can see an example here: 
 
 ![A map showing a black line following census blocks in rattan creek](images/rc_block.png)
 *The big black line is TX-11's boundary. You can see how it follows Census Blocks* 
 
-You can also take a look at data for that block here: https://data.census.gov/profile/Block_3011,_Census_Tract_204.11,_Williamson_County,_Texas?g=1000000US484910204113011
-
-I won't dive into the weeds on census blocks but it's the smallest level of data you analyze basic data such as age, race and number of people.
+You can also take a look at data for a sample block [here](https://data.census.gov/profile/Block_3011,_Census_Tract_204.11,_Williamson_County,_Texas?g=1000000US484910204113011)
 
 In assembling the data and maps for determining who exactly is in TX-11, we had a couple of different sources to look at: 
 
 - The redistricting maps known as PLAN C2333 provided by the Texas House.
-- Voter Tabulation District or VTD (AKA Precincts)
+- Voter Tabulation District(VTD or better known as Precincts)
 - County voting data(just Travis for now)
-- Nomintem from OpenStreet Maps for Geocoding
+- Nominatim from OpenStreet Maps for Geocoding locally
 
+These source include shapfiles and csv files that joined together to provide a full picture. 
+
+For example, in the PLAN C2333 files, we have a variety of census datasets around the VTD as well as the shapes of each congressional district. The data is not in easy to parse CSV format but is relatively straightforward to process.  
+
+The VTD information files, acquired from the SoS, provides the shape of each precinct in each county. With registered voter data from the county data, we can then figure out the composition of active voters(for example, those active and voting in the last several elections) and get a better sense of the voter turnout. 
+
+![A spreadsheet from PLANC2333 show VTD census information](images/planc2333_vtd_example.png)
+*Example of VTD Census data used in PLANC2333* 
+
+
+Finally, with geocoding provided by a local Nominatim instance, we can have a map marker for each voter. This allows us to get a very real sense of how where voters live. 
+
+## Challenges in reviewing the data
 
 The challenges faced with integrating the data are this: 
 
-- The redistricting data uses either all or parts of a VTD for voting age population and Total Population(summing up the census blocks)
-- The voting and turnout data isn't 100% aligned with census block data so geocoding is all but required to have an accurate depiction of TX-11. 
-- Since the Congressional district must be contigious, you get very weird but purposely drawn shapes as is evident in Rattan Creek. 
+- PLANC2333 census data isn't in csv files - the data itself is of limited value but represents another manual step in preparing things. 
+- The redistricting data uses either all or parts of a VTD. This means we can solely use VTD boundaries or county data. 
+- The voting and turnout data isn't 100% aligned with census block data so geocoding(turning an address into a latitude/longitude for map plotting) is all but required to have an accurate depiction of voters in TX-11. 
+- Congressional districts must be contiguous (connected), which sometimes creates oddly shaped boundaries.
 
-This complex process is exclusive to the Austin area; in other parts of TX-11, boundaries are more straightforward and follow established county lines.
+It's important to note that this complex process is exclusive to the Austin area. In other parts of TX-11, boundaries are more straightforward and follow established county lines.Thankfully, with several tools, we can easily aggregate the data into databases and a GIS. 
 
-## Data At last
+![A screenshot of a QGIS application](images/qgis_example.png)
+*QGIS makes aggregating and visualizing the various data source much easier.* 
 
-Once the data is joined, however, you can start to get a sense of the population and voters turnout of TX-11. For example, it's clear that Pflugerville is one of the key areas in TX-11. 
+One key thing is that the various datasets do use consistent precinct/VTD codes. 
+
+## Visualizing Voter Turnout
+
+Once the data is acquired and geocoded, you get a sense of the population and voters turnout of TX-11. For example, it's clear that both that the Austin Area and, specifically, Pflugerville is one of the key areas in TX-11.
 
 In the 2024 general election, of all of the ballots cast in the new TX-11 boundaries, Pflugerville represents the largest by far slice of election turnout: 
 
@@ -74,10 +97,10 @@ In the 2024 general election, of all of the ballots cast in the new TX-11 bounda
 | Manor | 106 |
 | Marble Falls | 39 |
 | Round Rock | 2826 |
+*Contrasting this to the 2024 Old TX-11 Election Turnout of 211k votes, the Austin area would no comprise 29% of the turnout*
 
 
-
-As a result of continuing to sift through the data, we can start to see more and more insights like primary turnout, voters who may have abstained from voting in 2024 and more. 
+As a result of analyzing the data in our GIS system, we can start to see more insights like primary turnout & voters who may have abstained from voting in 2024 and more. 
 
 We can see in this example a low turnout VTD(~1.5k registered didn't vote)
 ![A picture of Pflugerville VTD 162 with various information](images/vtd_162_view.png)
@@ -90,9 +113,9 @@ And then the clustered addresses where registered voters didn't vote in 2024.
 
 You can also compare with previous election turn outs and, with some SQL, visualize the differences of 2022. Here, we have a map of clustered voters who voted in 2022 but didn't vote in 2024. 
 
-![More clusted dots indicating voting in 2022 but not 2024](images/active_voted22_didntvote24.png.png)
+![More clustered dots indicating voting in 2022 but not 2024](images/active_voted22_didntvote24.png)
+*This picture shows 2022 voters who didn't vote in 2024.*
 
+# Next Steps
 
-With these maps, we can understand the layout of the land and identify opporunities in engaging with voters in promoting turnout. 
-
-Hopefully, I will be able to acquire the remaining large counties data for TX-11 and can continue to figure out where we can focus our efforts. 
+Efforts are ongoing to acquire data from other counties in TX-11. Until then, Travis County data provides a starting point for understanding voter trends and opportunities for outreach. Our goal is to use this geographic data so we know where we can focus our efforts and make the biggest impacts. 
