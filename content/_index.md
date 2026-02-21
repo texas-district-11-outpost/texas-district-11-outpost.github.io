@@ -15,7 +15,7 @@ This is our tongue-in-cheek response to the fact that the new District 11 will r
 
 Here is some info about the [redistricting maps](/redistricting-maps) that was the genesis for this website and the organizing around it. You can also go to [this page](https://dvr.capitol.texas.gov/Congress/73/PLANC2308), zoom in, and see the boundaries of each new district within your neighborhood.
 
-We also have a fun Google map you can search directly for your address to see if you're in, or out, of TX-11. Either click below to scroll around and see what's up, or use our handy [geolocater](/geolocate) to look up the saddress you're interested in.
+We also have a fun Google map you can search directly for your address to see if you're in, or out, of TX-11. Either click below to scroll around and see what's up, or use our handy [geolocater](/geolocate) to look up the address you're interested in.
 
 [![Google maps of TX-11, lovingly handcrafted by todb with QGIS and Google Maps, with loads of help from Matt L](/images/google-maps-tx11.jpg)](https://www.google.com/maps/d/embed?mid=1B_tPshOlBdIxr7Q66k-gdOzB25dQY5w&ehbc=2E312F)
 
