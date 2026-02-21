@@ -56,7 +56,7 @@ For example, in the PLAN C2333 files, we have a variety of census datasets aroun
 The VTD information files, acquired from the SoS, provides the shape of each precinct in each county. With registered voter data from the county data, we can then figure out the composition of active voters(for example, those active and voting in the last several elections) and get a better sense of the voter turnout. 
 
 ![A spreadsheet from PLANC2333 show VTD census information](images/planc2333_vtd_example.png)
-*Example of VTD Census data used in PLANC2333* 
+*Example of VTD Census data used in [PLANC2333](https://github.com/texas-district-11-outpost/texas-district-11-outpost.github.io/tree/main/plan-maps/PLANC2333)* 
 
 
 Finally, with geocoding provided by a local Nominatim instance, we can have a map marker for each voter. This allows us to get a very real sense of how where voters live. 
