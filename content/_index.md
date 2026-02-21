@@ -21,6 +21,8 @@ We also have a fun Google map you can search directly for your address to see if
 
 *Isn't gerrymanding wild? [Click here](https://www.google.com/maps/d/embed?mid=1B_tPshOlBdIxr7Q66k-gdOzB25dQY5w&ehbc=2E312F) to search your address.*
 
+## More data? Here you go!
+
 For a deep dive into the GIS and voter data used to create these maps, and how it can be used to predict voter turnout, [check out this Maps and TX-11 page](/map-voter-data). 
 
 # WHEN IS THIS HAPPENING?
