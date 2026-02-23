@@ -79,7 +79,7 @@ The challenges faced with integrating the data are this:
 It's important to note that this complex process is exclusive to the Austin area. In other parts of TX-11, boundaries are more straightforward and follow established county lines.Thankfully, with several tools, we can easily aggregate the data into databases and a GIS. 
 
 ![A screenshot of a QGIS application](images/qgis_example.png)
-*QGIS makes aggregating and visualizing the various data source much easier.* 
+*QGIS makes aggregating and visualizing the various data sources much easier.* 
 
 One key thing is that the various datasets do use consistent precinct/VTD codes. 
 
