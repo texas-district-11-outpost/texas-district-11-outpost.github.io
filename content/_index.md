@@ -3,11 +3,11 @@
 
 # WHO ARE WE?
 
-We are a group of Austin Area residents who want to raise awareness that our part of the neighborhood has been gerrymandered into what will become the new Texas U.S. Congressional District 11. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. [Sign up](/signup) here to keep informed!
+We are a group of Austin Area residents who want to raise awareness that our part of Texas has been gerrymandered into what will become the new Texas U.S. Congressional District 11. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. [Sign up](/signup) here to keep informed!
 
 # WHAT ARE WE DOING?
 
-You may have seen the "Welcome to Odessa" logo around the neighborhood. 
+You may have seen the "Welcome to Odessa" logo around your neighborhood.
 
 This is our tongue-in-cheek response to the fact that the new District 11 will range from Pflugerville all the way out to Odessa. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. The current District 11 is represented by Republican Congressman August Pfluger, out of San Angelo. He is running unopposed in the primary as the Republican candidate. He will face off against one of two Democrat candidates - Claire Reynolds or Pedro "Pete" Ruiz. 
 
