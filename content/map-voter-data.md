@@ -29,11 +29,17 @@ When reviewing that data, some odd things may pop up and it's important to remem
 - Geocoding: Converting an address (e.g., “123 Main St”) into map coordinates.
 - GIS (Geographic information system): A software that draws maps and provides tools to give goegrpahicaly-aware context from different data sets. 
 
+## Tools used: 
+
+- [OpenStreetMap (OSM)](https://www.openstreetmap.org/): : A user-generated map of the world, where anyone can contribute information about streets, buildings, and points of interest.
+- [Nominatim](https://nominatim.org/): A search engine that helps find specific locations on OpenStreetMap.
+- [QGIS](https://qgis.org/en/site/): A free and open-source geographic information system (GIS) for viewing, editing, and analyzing geospatial data.
+- [PostGIS](https://github.com/postgis/postgis/wiki): An extension of PostgreSQL that helps store and manage large amounts of spatial data.
+
+
 ## Data Sources
 
-There are a variety of sources used in drawing the complete picture of who is now in TX-11 - it starts with the redistricting maps themselves.
-
-The Texas State House took gerrymandered maps provided by Butler Snow. These maps, using a variety of public and private data sources, slice Texas up at the census block level into new congressional districts. 
+The Texas State House took gerrymandered maps provided by law firm [Butler Snow](https://mississippitoday.org/2025/08/21/texas-is-creating-new-partisan-congressional-maps-a-mississippi-attorney-is-helping/). [These maps](https://data.capitol.texas.gov/dataset/planc2333), using a variety of public and private data sources, slice Texas up at the census block level into new congressional districts. The sources includes US Census and voter turnout as well as private data collected by [the National Republican Redistricting Trust](https://www.democracydocket.com/news-alerts/meet-adam-kincaid-the-hidden-hand-behind-the-texas-gops-redistricting-power-grab/).
 
 For an example of how small a Census block can be, you can see an example here: 
 
@@ -73,7 +79,7 @@ The challenges faced with integrating the data are this:
 It's important to note that this complex process is, in this case, exclusive to the Austin area. In other, sparser-populated parts of TX-11, boundaries are more straightforward and follow established county lines. Thankfully, with several tools, we can easily aggregate the data into databases and a GIS. 
 
 ![A screenshot of a QGIS application](images/qgis_example.png)
-*QGIS makes aggregating and visualizing the various data source much easier.* 
+*QGIS makes aggregating and visualizing the various data sources much easier.* 
 
 One key thing is that the various datasets do use consistent precinct/VTD codes. 
 
@@ -97,8 +103,7 @@ In the 2024 general election, of all of the ballots cast in the new TX-11 bounda
 | Manor | 106 |
 | Marble Falls | 39 |
 | Round Rock | 2826 |
-
-*Contrasting this to the 2024 "Old TX-11" Election Turnout of 211k votes, the Austin area would now constitutes 29% of the turnout*
+*Contrasting this to the 2024 Old TX-11 Election Turnout of 211k votes, the Austin area would now comprise 29% of the turnout*
 
 As a result of analyzing the data in our GIS system, we can start to see more insights like primary turnout & voters who may have abstained from voting in 2024 and more. 
 
