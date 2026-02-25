@@ -62,7 +62,7 @@ For example, in the PLAN C2333 files, we have a variety of census datasets aroun
 The VTD information files, acquired from the SoS, provides the shape of each precinct in each county. With registered voter data from the county data, we can then figure out the composition of active voters(for example, those active and voting in the last several elections) and get a better sense of the voter turnout. 
 
 ![A spreadsheet from PLANC2333 show VTD census information](images/planc2333_vtd_example.png)
-*Example of VTD Census data used in PLANC2333* 
+*Example of VTD Census data used in [PLANC2333](https://github.com/texas-district-11-outpost/texas-district-11-outpost.github.io/tree/main/plan-maps/PLANC2333)* 
 
 
 Finally, with geocoding provided by a local Nominatim instance, we can have a map marker for each voter. This allows us to get a very real sense of how where voters live. 
@@ -72,11 +72,11 @@ Finally, with geocoding provided by a local Nominatim instance, we can have a ma
 The challenges faced with integrating the data are this: 
 
 - PLANC2333 census data isn't in csv files - the data itself is of limited value but represents another manual step in preparing things. 
-- The redistricting data uses either all or parts of a VTD. This means we can solely use VTD boundaries or county data. 
-- The voting and turnout data isn't 100% aligned with census block data so geocoding(turning an address into a latitude/longitude for map plotting) is all but required to have an accurate depiction of voters in TX-11. 
-- Congressional districts must be contiguous (connected), which sometimes creates oddly shaped boundaries.
+- The redistricting data uses either all or parts of a VTD. This means we cannot solely use VTD boundaries or county data. 
+- The voting and turnout data isn't 100% aligned with census block data so geocoding (turning an address into a latitude/longitude for map plotting) is all but required to have an accurate depiction of voters in TX-11. 
+- Congressional districts must be contiguous (connected), which sometimes creates oddly shaped boundaries (fun fact: this is the origin of the term "gerrymander," as they seem to resemble [mythical "salamanders"](https://en.wikipedia.org/wiki/Gerrymandering#Etymology)).
 
-It's important to note that this complex process is exclusive to the Austin area. In other parts of TX-11, boundaries are more straightforward and follow established county lines.Thankfully, with several tools, we can easily aggregate the data into databases and a GIS. 
+It's important to note that this complex process is, in this case, exclusive to the Austin area. In other, sparser-populated parts of TX-11, boundaries are more straightforward and follow established county lines. Thankfully, with several tools, we can easily aggregate the data into databases and a GIS. 
 
 ![A screenshot of a QGIS application](images/qgis_example.png)
 *QGIS makes aggregating and visualizing the various data sources much easier.* 
@@ -85,7 +85,7 @@ One key thing is that the various datasets do use consistent precinct/VTD codes.
 
 ## Visualizing Voter Turnout
 
-Once the data is acquired and geocoded, you get a sense of the population and voters turnout of TX-11. For example, it's clear that both that the Austin Area and, specifically, Pflugerville is one of the key areas in TX-11.
+Once the data is acquired and geocoded, you get a sense of the population and voters turnout of TX-11. For example, it's clear that both that the Austin area and, specifically, Pflugerville is one of the key areas in TX-11.
 
 In the 2024 general election, of all of the ballots cast in the new TX-11 boundaries, Pflugerville represents the largest by far slice of election turnout: 
 
@@ -104,7 +104,6 @@ In the 2024 general election, of all of the ballots cast in the new TX-11 bounda
 | Marble Falls | 39 |
 | Round Rock | 2826 |
 *Contrasting this to the 2024 Old TX-11 Election Turnout of 211k votes, the Austin area would now comprise 29% of the turnout*
-
 
 As a result of analyzing the data in our GIS system, we can start to see more insights like primary turnout & voters who may have abstained from voting in 2024 and more. 
 
