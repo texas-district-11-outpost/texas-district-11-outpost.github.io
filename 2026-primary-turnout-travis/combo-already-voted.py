@@ -65,4 +65,4 @@ dem_combined.to_csv("D-already-voted.csv", index=False)
 rep_combined.to_csv("R-already-voted.csv", index=False)
 
 # Optional: write full dedupe report including SourceFile for inspection
-deduped.to_csv("deduped_full_report.csv", index=False)
+deduped.to_csv("deduped-full-report.csv", index=False)
