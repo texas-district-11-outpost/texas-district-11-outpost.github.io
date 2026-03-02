@@ -2,7 +2,13 @@
 
 The goal of this mini-project is to find out, by precinct, how many people have already voted, looking specifically at TX-11 in Travis County.
 
-The Precincts list is still messed up. Fixing that now. Don't trust `OLD-tx11-districts.txt` for reality. That just covers the old (current) district info.
+`OLD-tx11-districts.txt` are the current districts (pre-redistricting).
+
+`tx11-districts.txt` are the districts people are voting in for 2026.
+
+The data is fresh as of the morning of Monday, March 2, 2026. There will be a few more votes to process through Mail Ballots through March 4. There will be some provisional votes left to count in March as well.
+
+And obviously, this doesn't cover Election Day on March 3. That's in the future.
 
 Source files are all public:
 
