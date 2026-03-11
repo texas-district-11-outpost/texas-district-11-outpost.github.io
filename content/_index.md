@@ -9,7 +9,7 @@ We are a group of Austin Area residents who want to raise awareness that our par
 
 You may have seen the "Welcome to Odessa" logo around the neighborhood. 
 
-This is our tongue-in-cheek response to the fact that the new District 11 will range from Pflugerville all the way out to Odessa. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. The current District 11 is represented by Republican Congressman August Pfluger, out of San Angelo. He is running unopposed in the primary as the Republican candidate. He will face off against one of two Democrat candidates - Claire Reynolds or Pedro "Pete" Ruiz. 
+This is our tongue-in-cheek response to the fact that the new District 11 will range from Pflugerville all the way out to Odessa. Our goal is to ensure that everyone in our area is aware of their soon-to-be new congressional district so we can ensure that our voices are heard. The current District 11 is represented by Republican Congressman August Pfluger, out of San Angelo. He is running unopposed and will face off against Democrat Claire Reynolds this coming November.
 
 # WHERE IS MY NEW DISTRICT?
 
@@ -31,7 +31,7 @@ The new district maps will go into effect for the 2026 elections. Both the Repub
 
 # WHY IS THIS HAPPENING?
 
-President Donald Trump and Texas Governor Greg Abbott have stated that the mid-decade redistricting is to increase the number of Republicans in the U.S. Congress. Rattan Creek and the surrounding neighborhoods have tended to vote Democratic in the past few elections. By subsuming these neighborhoods into a solidly Republican district that stretches to far West Texas, those Democratic votes will presumably be outnumbered.
+President Donald Trump and Texas Governor Greg Abbott have stated that the mid-decade redistricting is to increase the number of Republicans in the U.S. Congress. Pflugerville, Wells Branch, Rattan Creek and the surrounding neighborhoods have tended to vote Democratic in the past few elections. By subsuming these neighborhoods into a solidly Republican district that stretches to far West Texas, those Democratic votes will presumably be outnumbered.
 
 For an explainer on how gerrymandering works, see this CGP Grey video. For more info on how these Texas redistricting maps came to be, [CGP Grey video](https://www.youtube.com/watch?v=Mky11UJb9AY).
 
