@@ -33,7 +33,7 @@ The new district maps will go into effect for the 2026 elections. Both the Repub
 
 President Donald Trump and Texas Governor Greg Abbott have stated that the mid-decade redistricting is to increase the number of Republicans in the U.S. Congress. Pflugerville, Wells Branch, Rattan Creek and the surrounding neighborhoods have tended to vote Democratic in the past few elections. By subsuming these neighborhoods into a solidly Republican district that stretches to far West Texas, those Democratic votes will presumably be outnumbered.
 
-For an explainer on how gerrymandering works, see this CGP Grey video. For more info on how these Texas redistricting maps came to be, [CGP Grey video](https://www.youtube.com/watch?v=Mky11UJb9AY).
+For an explainer on how gerrymandering works, see this [CGP Grey video](https://www.youtube.com/watch?v=Mky11UJb9AY).
 
 # WAIT, IS THIS EVEN LEGAL?
 
