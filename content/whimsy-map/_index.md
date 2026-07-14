@@ -14,7 +14,7 @@ Perfect for printing coloring pages for kids of all ages!
 
 Perfect for printing handsome wall posters, among other objets d'art!
 
-[![Whimsical map full color (high resolution)](whimsy-map-hires.png)](whimsy-map-hires.png "Click to download high-resolution color version")
+[![Whimsical map full color (high resolution)](whimsy-map-hires-preview.png)](whimsy-map-hires.png "Click to download high-resolution color version")
 
 [📥 Download high-res color version (38 MB)](whimsy-map-hires.png)
 
