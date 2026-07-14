@@ -6,17 +6,17 @@ A delightful illustrated map of the new Texas Congressional District 11, created
 
 Perfect for printing coloring pages for kids of all ages!
 
-[![Whimsical map preview (lines only)](whimsy-map-lowres.jpeg)](whimsy-map-lowres.jpeg "Click to download low-resolution black and white version")
+[![Whimsical map preview (lines only)](whimsy-map-lowres.jpeg)](whimsy-map-lowres.png "Click to download low-resolution black and white version")
 
-[📥 Download low-res black and white version (519 KB)](whimsy-map-lowres.jpeg)
+[📥 Download low-res black and white version (6.5 MB)](whimsy-map-lowres.png)
 
 ### High-Resolution Full Color
 
 Perfect for printing handsome wall posters, among other objets d'art!
 
-[![Whimsical map full color (high resolution)](whimsy-map-hires.svg)](whimsy-map-hires.svg "Click to download high-resolution color version")
+[![Whimsical map full color (high resolution)](whimsy-map-hires.png)](whimsy-map-hires.png "Click to download high-resolution color version")
 
-[📥 Download high-res color version (85 MB SVG)](whimsy-map-hires.svg)
+[📥 Download high-res color version (38 MB)](whimsy-map-hires.png)
 
 ## License
 
