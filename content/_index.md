@@ -25,6 +25,10 @@ We also have a fun Google map you can search directly for your address to see if
 
 For a deep dive into the GIS and voter data used to create these maps, and how it can be used to predict voter turnout, [check out this Maps and TX-11 page](/map-voter-data). 
 
+## Less data? Okay!
+
+If all those maps and data aren't your bag, check out our delightfully whimsical [illustrated map of TX-11](/whimsy-map). It's more fun than cartograms and GIS, has way more cartoon tacos and bluebonnets. Thanks, Mallory!
+
 # WHEN IS THIS HAPPENING?
 
 The new district maps will go into effect for the 2026 elections. Both the Republican and the Democratic primaries are March 3, 2026, and the general election is November 3, 2026. The current District 11 is represented by Republican Congressman August Pfluger, out of San Angelo. He is running unopposed in the primary as the Republican candidate. He will face off against one of two Democrat candidates - Claire Reynolds or Pedro “Pete” Ruiz.
