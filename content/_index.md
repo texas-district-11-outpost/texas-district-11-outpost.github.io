@@ -27,7 +27,7 @@ For a deep dive into the GIS and voter data used to create these maps, and how i
 
 ## Less data? Okay!
 
-If all those maps and data aren't your bag, check out our delightfully whimsical [illustrated map of TX-11](/whimsy-map). It's more fun than cartograms and GIS, has way more cartoon tacos and bluebonnets. Thanks, Mallory!
+If all those maps and data aren't your bag, check out our delightfully whimsical [illustrated map of TX-11](/whimsy-map). It's more fun than cartograms and GIS, and has way more cartoon tacos and bluebonnets. Thanks, Mallory!
 
 # WHEN IS THIS HAPPENING?
 
