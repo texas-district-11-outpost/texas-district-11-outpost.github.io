@@ -234,7 +234,7 @@ journalism at Texas Tribune, because, yes, data science is journalism.
 
 **[Donate to Texas Tribune right now!](https://support.texastribune.org/donate)**
 
-If you want to review the Texas Resdistricting data directly and other components including PLANC2333 as well as the Texas Supremere Court ruling in favor of partistan gerrymandering, you can find it here: [https://redistricting.capitol.texas.gov/](https://redistricting.capitol.texas.gov/). 
+If you want to review the Texas Resdistricting data directly and other components including PLANC2333 as well as the Texas Supreme Court ruling in favor of partistan gerrymandering, you can find it here: [https://redistricting.capitol.texas.gov/](https://redistricting.capitol.texas.gov/). 
 
 ### Notice of License
 
