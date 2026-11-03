@@ -4,6 +4,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      full_checkout:
+        description: 'Full checkout (all files and git history) instead of the default shallow one'
+        type: boolean
+        default: false
   # Rebuild every 15 minutes on Election Day so /wait-times stays fresh.
   # Cron is in UTC; Central (CST) is UTC-6. These cover 7:00am-11:45pm Central
   # on Nov 3. Cron has no year, so the election-day gate job below also
@@ -56,11 +61,40 @@ jobs:
       NODE_VERSION: 22.18.0
       TZ: America/Chicago
     steps:
-      - name: Checkout
+      # Only when run by hand with the "Full checkout" box ticked:
+      # every file plus complete git history.
+      - name: Checkout (full)
+        if: inputs.full_checkout
         uses: actions/checkout@v5
         with:
           submodules: recursive
           fetch-depth: 0
+      # Default for pushes, timer runs, and manual runs: shallow checkout.
+      # Latest commit only, and skip the ~1 GB of
+      # plan-maps the site doesn't use (the wait-times scraper needs only
+      # plan-maps/just-tx11). Non-cone patterns: "/*" + "!/*/" keeps root files
+      # (config.yaml, hugo.yaml) but no directories, then the listed
+      # directories are added. If the site starts depending on a new top-level
+      # directory, add it here too.
+      - name: Checkout (shallow)
+        if: ${{ !inputs.full_checkout }}
+        uses: actions/checkout@v5
+        with:
+          submodules: recursive
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/*/
+            /archetypes/
+            /assets/
+            /content/
+            /layouts/
+            /static/
+            /themes/
+            /tools/
+            /plan-maps/just-tx11/
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
