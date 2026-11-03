@@ -33,10 +33,14 @@ env:
 jobs:
   # Lets pushes and manual runs through; lets scheduled runs through only on
   # ELECTION_DATE (Central time). Otherwise the build and deploy are skipped.
+  # Also says whether to scrape wait times: on ELECTION_DATE, every build does
+  # (so a push never redeploys a stale committed snapshot); otherwise only
+  # manual runs do.
   gate:
     runs-on: ubuntu-latest
     outputs:
       go: ${{ steps.check.outputs.go }}
+      scrape: ${{ steps.check.outputs.scrape }}
     steps:
       - id: check
         env:
@@ -44,6 +48,11 @@ jobs:
           EVENT: ${{ github.event_name }}
         run: |
           today=$(date +%F)
+          if [[ "$today" == "$ELECTION_DATE" || "$EVENT" == "workflow_dispatch" ]]; then
+            echo "scrape=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "scrape=false" >> "$GITHUB_OUTPUT"
+          fi
           if [[ "$EVENT" != "schedule" || "$today" == "$ELECTION_DATE" ]]; then
             echo "go=true" >> "$GITHUB_OUTPUT"
           else
@@ -143,8 +152,8 @@ jobs:
           key: hugo-${{ github.run_id }}
           restore-keys: hugo-
       - name: Refresh polling place wait times
-        # Only on the timer or a manual run; ordinary pushes keep the committed snapshot.
-        if: github.event_name != 'push'
+        # Every build on ELECTION_DATE, plus manual runs; see the gate job.
+        if: needs.gate.outputs.scrape == 'true'
         run: |
           ruby --version
           ruby tools/wait_times.rb "$ELECTION_DATE"
