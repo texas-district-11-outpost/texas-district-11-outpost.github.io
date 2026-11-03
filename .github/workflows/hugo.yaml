@@ -4,6 +4,15 @@ on:
     branches:
       - main
   workflow_dispatch:
+  # Rebuild every 15 minutes on Election Day so /wait-times stays fresh.
+  # Cron is in UTC; Central (CST) is UTC-6. These cover 7:00am-11:45pm Central
+  # on Nov 3. Cron has no year, so the election-day gate job below also
+  # requires the Central date to equal ELECTION_DATE.
+  # For the next election: update both crons, ELECTION_DATE, and the iframe
+  # URLs in content/wait-times.md.
+  schedule:
+    - cron: '*/15 13-23 3 11 *'
+    - cron: '*/15 0-5 4 11 *'
 permissions:
   contents: read
   pages: write
@@ -14,8 +23,31 @@ concurrency:
 defaults:
   run:
     shell: bash
+env:
+  ELECTION_DATE: '2026-11-03'
 jobs:
+  # Lets pushes and manual runs through; lets scheduled runs through only on
+  # ELECTION_DATE (Central time). Otherwise the build and deploy are skipped.
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      go: ${{ steps.check.outputs.go }}
+    steps:
+      - id: check
+        env:
+          TZ: America/Chicago
+          EVENT: ${{ github.event_name }}
+        run: |
+          today=$(date +%F)
+          if [[ "$EVENT" != "schedule" || "$today" == "$ELECTION_DATE" ]]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Scheduled run on $today, not $ELECTION_DATE; skipping."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          fi
   build:
+    needs: gate
+    if: needs.gate.outputs.go == 'true'
     runs-on: ubuntu-latest
     env:
       DART_SASS_VERSION: 1.93.2
@@ -76,6 +108,12 @@ jobs:
           path: ${{ runner.temp }}/hugo_cache
           key: hugo-${{ github.run_id }}
           restore-keys: hugo-
+      - name: Refresh polling place wait times
+        # Only on the timer or a manual run; ordinary pushes keep the committed snapshot.
+        if: github.event_name != 'push'
+        run: |
+          ruby --version
+          ruby tools/wait_times.rb "$ELECTION_DATE"
       - name: Build the site
         run: |
           hugo \

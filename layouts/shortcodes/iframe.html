@@ -1,4 +1,4 @@
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 125%;">
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 125%;{{ with .Get "border" }} border: 4px solid {{ . | safeCSS }}; border-radius: 6px; overflow: hidden;{{ end }}">
   <iframe src="{{ .Get "src" }}"
           style="position: absolute; width: 100%; height: 100%; left: 0; top: 0; border: 0;">
   </iframe>

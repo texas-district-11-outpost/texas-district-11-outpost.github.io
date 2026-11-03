@@ -1,4 +1,13 @@
 
+<p id="election-day-banner" hidden><strong>🗳️ Election Day is today! <a href="/wait-times/">Check here for poll wait times in Travis and WilCo!</a></strong></p>
+<script>
+  (function () {
+    // Show only on Election Day, Central time.
+    var today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Chicago" });
+    if (today === "2026-11-03") document.getElementById("election-day-banner").hidden = false;
+  })();
+</script>
+
 ![Welcome to Odessa!](/images/YardSign.svg)
 
 # WHO ARE WE?
