@@ -6,7 +6,7 @@ title: 'Polling Place Wait Times in Travis and WilCo, TX-11 Filtered'
 
 Polling places inside the TX-11 portions of Travis and WilCo where the reported wait is **15 minutes or more**. Busy lines are not great for voters, but it does highlight where people tend to vote.
 
-These times are mostly static, but the iframes below are always current. Of course, you can just visit the county sites directly:
+These times update every 20 minutes or so, but the iframes below are always current. Of course, you can just visit the county sites directly:
 
 * [WilCo wait times](https://www.wilcotx.gov/elections)
 * [Travis wait times](https://votetravis.gov/current-election-information/current-election/)
